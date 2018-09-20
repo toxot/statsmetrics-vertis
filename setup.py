@@ -6,18 +6,18 @@ with open(path.join(path.abspath(path.dirname(__file__)), 'README.rst'), encodin
     long_description = f.read()
 
 setup(
-    name='statsmetrics',
+    name='statsmetrics-vetis',
 
-    version='1.0.2',
+    version='1.0.3',
 
     description='List of metrics to use with exporters',
     long_description=long_description,
 
-    url='https://github.com/brunopsoares/statsmetrics',
+    url='https://github.com/toxot/statsmetrics-vertis',
 
     # Author details
-    author='Bruno Soares',
-    author_email='bruno.soares@jumia.com',
+    author='ArtemSarkisov',
+    author_email='asarkisov@yandexteam.ru',
 
     # Choose your license
     license='MIT',

@@ -1,4 +1,4 @@
-from statsmetrics import couchbase as couchbasemetrics
+from statsmetrics-vertis import couchbase as couchbasemetrics
 
 metrics = couchbasemetrics.get_metrics()
 print (metrics)
